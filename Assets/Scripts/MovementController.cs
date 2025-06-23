@@ -12,7 +12,7 @@ public class MovementController : MonoBehaviour
 
     public void Move(Vector2 direction)
     {
-        Vector2 movement = _speed * Time.deltaTime * direction.normalized;
+        Vector2 movement = _speed * direction.normalized;
         _rb.linearVelocity = new Vector2(movement.x, movement.y);
     }
     

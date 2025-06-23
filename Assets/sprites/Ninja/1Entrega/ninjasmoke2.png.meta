@@ -3,7 +3,7 @@ guid: 6aeee699264aea54a85c4a52e72dbef1
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -20,11 +20,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -63,8 +64,10 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
-  - serializedVersion: 3
+  - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -74,9 +77,10 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
+  - serializedVersion: 4
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -86,9 +90,10 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
+  - serializedVersion: 4
     buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -98,9 +103,10 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
+  - serializedVersion: 4
     buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -110,9 +116,10 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
+  - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -122,6 +129,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -138,6 +146,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -159,6 +168,7 @@ TextureImporter:
       alignment: 9
       pivot: {x: 0.5, y: 0.37878788}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -180,6 +190,7 @@ TextureImporter:
       alignment: 9
       pivot: {x: 0.5, y: 0.54347825}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -201,6 +212,7 @@ TextureImporter:
       alignment: 9
       pivot: {x: 0.5, y: 0.5555556}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -222,6 +234,7 @@ TextureImporter:
       alignment: 9
       pivot: {x: 0.5, y: 0.48076922}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -243,6 +256,7 @@ TextureImporter:
       alignment: 9
       pivot: {x: 0.5, y: 0.40983605}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -264,6 +278,7 @@ TextureImporter:
       alignment: 9
       pivot: {x: 0.5, y: 0.41666666}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -285,6 +300,7 @@ TextureImporter:
       alignment: 9
       pivot: {x: 0.5, y: 0.5319149}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -306,6 +322,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -327,6 +344,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -348,6 +366,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -359,6 +378,7 @@ TextureImporter:
       edges: []
       weights: []
     outline: []
+    customData: 
     physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
@@ -368,48 +388,49 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
     nameFileIdTable:
       ninjasmoke2_0: -540736153
-      ninjasmoke2_24: -1376008749
+      ninjasmoke2_1: -1895588665
+      ninjasmoke2_10: 125343854
+      ninjasmoke2_11: -766202148
+      ninjasmoke2_12: 2023627062
+      ninjasmoke2_13: 1809486598
+      ninjasmoke2_14: 1878556161
+      ninjasmoke2_15: 1934727737
+      ninjasmoke2_16: 2133903986
+      ninjasmoke2_17: 198135963
+      ninjasmoke2_18: 586103575
+      ninjasmoke2_19: -1454184458
+      ninjasmoke2_2: -1539690305
+      ninjasmoke2_20: -1834700715
       ninjasmoke2_21: -2145112648
+      ninjasmoke2_22: -932087230
+      ninjasmoke2_23: 2012624437
+      ninjasmoke2_24: -1376008749
+      ninjasmoke2_25: 1630820569
       ninjasmoke2_26: -1775786681
       ninjasmoke2_27: 1234073327
-      ninjasmoke2_16: 2133903986
-      ninjasmoke2_31: -2047166583
-      ninjasmoke2_4: -1722556639
-      ninjasmoke2_2: -1539690305
-      ninjasmoke2_30: 1380763343
-      ninjasmoke2_9: 1458938129
-      ninjasmoke2_13: 1809486598
-      ninjasmoke2_25: 1630820569
-      ninjasmoke2_32: 433499614
-      ninjasmoke2_12: 2023627062
-      ninjasmoke2_5: -1586349616
-      ninjasmoke2_1: -1895588665
-      ninjasmoke2_11: -766202148
-      ninjasmoke2_7: -447172656
-      ninjasmoke2_35: 1418221517
-      ninjasmoke2_20: -1834700715
-      ninjasmoke2_10: 125343854
-      ninjasmoke2_34: -509833233
-      ninjasmoke2_29: 309498599
-      ninjasmoke2_14: 1878556161
-      ninjasmoke2_3: -503873448
-      ninjasmoke2_23: 2012624437
-      ninjasmoke2_22: -932087230
-      ninjasmoke2_15: 1934727737
-      ninjasmoke2_17: 198135963
-      ninjasmoke2_36: 762586481
       ninjasmoke2_28: -1390877852
-      ninjasmoke2_19: -1454184458
-      ninjasmoke2_6: 1839827251
-      ninjasmoke2_8: -1515862272
-      ninjasmoke2_37: 1711547730
+      ninjasmoke2_29: 309498599
+      ninjasmoke2_3: -503873448
+      ninjasmoke2_30: 1380763343
+      ninjasmoke2_31: -2047166583
+      ninjasmoke2_32: 433499614
       ninjasmoke2_33: -1869651218
-      ninjasmoke2_18: 586103575
-  spritePackingTag: 
+      ninjasmoke2_34: -509833233
+      ninjasmoke2_35: 1418221517
+      ninjasmoke2_36: 762586481
+      ninjasmoke2_37: 1711547730
+      ninjasmoke2_4: -1722556639
+      ninjasmoke2_5: -1586349616
+      ninjasmoke2_6: 1839827251
+      ninjasmoke2_7: -447172656
+      ninjasmoke2_8: -1515862272
+      ninjasmoke2_9: 1458938129
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
