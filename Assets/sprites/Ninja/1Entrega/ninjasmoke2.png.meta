@@ -1,0 +1,415 @@
+fileFormatVersion: 2
+guid: 6aeee699264aea54a85c4a52e72dbef1
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ninjasmoke2_18
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 41
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c25aef6ab4069444899312b82be5053
+      internalID: 586103575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ninjasmoke2_19
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 32
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.37878788}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c818e42bcc8c28d448541b792ff35217
+      internalID: -1454184458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ninjasmoke2_20
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 0
+        width: 40
+        height: 46
+      alignment: 9
+      pivot: {x: 0.5, y: 0.54347825}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de9bf907bc02fd546a4189bb99cffb8d
+      internalID: -1834700715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ninjasmoke2_21
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 0
+        width: 43
+        height: 45
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5555556}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cb18cb7c4ee5714398f016ed045ffbe
+      internalID: -2145112648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ninjasmoke2_22
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 0
+        width: 59
+        height: 52
+      alignment: 9
+      pivot: {x: 0.5, y: 0.48076922}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d05352675b0ed484f84cb2655cdca752
+      internalID: -932087230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ninjasmoke2_23
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 0
+        width: 56
+        height: 61
+      alignment: 9
+      pivot: {x: 0.5, y: 0.40983605}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2254587f045b06419a1b81c84268653
+      internalID: 2012624437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ninjasmoke2_24
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 1
+        width: 54
+        height: 60
+      alignment: 9
+      pivot: {x: 0.5, y: 0.41666666}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fbe891afb3d7344eaefd6e228d46c3b
+      internalID: -1376008749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ninjasmoke2_25
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 15
+        width: 60
+        height: 47
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5319149}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d23efdb961e6ee4cb904fc47b17818c
+      internalID: 1630820569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ninjasmoke2_26
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 21
+        width: 47
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97f4f0fb1935ab2408e039053978a590
+      internalID: -1775786681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ninjasmoke2_8
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 21
+        width: 47
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f46e552389d1fb64c85a65a27b43dcc8
+      internalID: -1515862272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ninjasmoke2_0
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 110
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1be2cbe2a63a00f42b0f4f45f76ad1e1
+      internalID: -540736153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      ninjasmoke2_0: -540736153
+      ninjasmoke2_24: -1376008749
+      ninjasmoke2_21: -2145112648
+      ninjasmoke2_26: -1775786681
+      ninjasmoke2_27: 1234073327
+      ninjasmoke2_16: 2133903986
+      ninjasmoke2_31: -2047166583
+      ninjasmoke2_4: -1722556639
+      ninjasmoke2_2: -1539690305
+      ninjasmoke2_30: 1380763343
+      ninjasmoke2_9: 1458938129
+      ninjasmoke2_13: 1809486598
+      ninjasmoke2_25: 1630820569
+      ninjasmoke2_32: 433499614
+      ninjasmoke2_12: 2023627062
+      ninjasmoke2_5: -1586349616
+      ninjasmoke2_1: -1895588665
+      ninjasmoke2_11: -766202148
+      ninjasmoke2_7: -447172656
+      ninjasmoke2_35: 1418221517
+      ninjasmoke2_20: -1834700715
+      ninjasmoke2_10: 125343854
+      ninjasmoke2_34: -509833233
+      ninjasmoke2_29: 309498599
+      ninjasmoke2_14: 1878556161
+      ninjasmoke2_3: -503873448
+      ninjasmoke2_23: 2012624437
+      ninjasmoke2_22: -932087230
+      ninjasmoke2_15: 1934727737
+      ninjasmoke2_17: 198135963
+      ninjasmoke2_36: 762586481
+      ninjasmoke2_28: -1390877852
+      ninjasmoke2_19: -1454184458
+      ninjasmoke2_6: 1839827251
+      ninjasmoke2_8: -1515862272
+      ninjasmoke2_37: 1711547730
+      ninjasmoke2_33: -1869651218
+      ninjasmoke2_18: 586103575
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

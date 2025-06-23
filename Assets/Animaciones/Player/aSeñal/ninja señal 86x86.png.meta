@@ -1,0 +1,986 @@
+fileFormatVersion: 2
+guid: 3562f484bf750924cb3c2add7304da36
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "ninja se\xF1al 86x86_0"
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 498
+        width: 86
+        height: 86
+      alignment: 9
+      pivot: {x: 0.6, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fad40328ac17bad4dab8d0a9fd956891
+      internalID: 918590599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ninja se\xF1al 86x86_1"
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 498
+        width: 86
+        height: 86
+      alignment: 9
+      pivot: {x: 0.6, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 848f009f73e663b42bc0ca7b3b0c7c7d
+      internalID: 1338576542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ninja se\xF1al 86x86_2"
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 498
+        width: 86
+        height: 86
+      alignment: 9
+      pivot: {x: 0.6, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42d1d0fee125f1e4d87b4e12097d29fd
+      internalID: -746773869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ninja se\xF1al 86x86_3"
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 498
+        width: 86
+        height: 86
+      alignment: 9
+      pivot: {x: 0.6, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a57a4ea62a1054f4797545fa1186c42c
+      internalID: -1105733590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ninja se\xF1al 86x86_4"
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 498
+        width: 86
+        height: 86
+      alignment: 9
+      pivot: {x: 0.6, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ccaf913d44e756408f54662247ec187
+      internalID: 2056450263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ninja se\xF1al 86x86_5"
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 498
+        width: 86
+        height: 86
+      alignment: 9
+      pivot: {x: 0.6, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2da7835bc70dd0b4b88b760471ef56d4
+      internalID: -220489786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ninja se\xF1al 86x86_6"
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 498
+        width: 86
+        height: 89
+      alignment: 9
+      pivot: {x: 0.5, y: 0.48314607}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac1842c4cb12c23418049878f0ce6168
+      internalID: 153567156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ninja se\xF1al 86x86_7"
+      rect:
+        serializedVersion: 2
+        x: 1218
+        y: 498
+        width: 86
+        height: 90
+      alignment: 9
+      pivot: {x: 0.5, y: 0.47777778}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c880e095f0f9095478700ea6d33ee338
+      internalID: 620849933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ninja se\xF1al 86x86_8"
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 498
+        width: 86
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db335163e5ba3a04cb2a814473ec6cf1
+      internalID: 1003376588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ninja se\xF1al 86x86_9"
+      rect:
+        serializedVersion: 2
+        x: 1390
+        y: 498
+        width: 86
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbfb7a40c05dec243b7b7bd95fc16b44
+      internalID: 1863072225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ninja se\xF1al 86x86_10"
+      rect:
+        serializedVersion: 2
+        x: 1476
+        y: 498
+        width: 86
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d2f1e82ee4d69b4a9dd2b45c6069c4b
+      internalID: 655583028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ninja se\xF1al 86x86_11"
+      rect:
+        serializedVersion: 2
+        x: 1562
+        y: 498
+        width: 86
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ca622d5faf112649ad8810d618c8e6f
+      internalID: 1752427612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ninja se\xF1al 86x86_12"
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 412
+        width: 86
+        height: 86
+      alignment: 9
+      pivot: {x: 0.63, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52cfa5ae21c37cc458e8d5e3a2097151
+      internalID: -807462272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ninja se\xF1al 86x86_13"
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 412
+        width: 86
+        height: 86
+      alignment: 9
+      pivot: {x: 0.63, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6b3ad24f565f144bb75fc72c679e22a
+      internalID: -844465194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ninja se\xF1al 86x86_14"
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 412
+        width: 86
+        height: 86
+      alignment: 9
+      pivot: {x: 0.63, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e85a61fb4fe8e3468f1b4e2554eb45f
+      internalID: -1737573689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ninja se\xF1al 86x86_15"
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 412
+        width: 86
+        height: 86
+      alignment: 9
+      pivot: {x: 0.63, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d8a3d73ca94a1944a9c9c95402f96aa
+      internalID: -1945162659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ninja se\xF1al 86x86_16"
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 412
+        width: 86
+        height: 86
+      alignment: 9
+      pivot: {x: 0.63, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40159bf3d901ac94bb4a9e137f00509b
+      internalID: 820081185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ninja se\xF1al 86x86_17"
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 412
+        width: 86
+        height: 86
+      alignment: 9
+      pivot: {x: 0.63, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e0bba2af6d84b14a8bd4284955bd78b
+      internalID: 534500373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ninja se\xF1al 86x86_18"
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 412
+        width: 86
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ded883b606acf747b3bc6bb960c64cc
+      internalID: -649438779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ninja se\xF1al 86x86_19"
+      rect:
+        serializedVersion: 2
+        x: 1218
+        y: 412
+        width: 86
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c79996190e4a2746828b046c095738a
+      internalID: -1100750864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ninja se\xF1al 86x86_20"
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 326
+        width: 86
+        height: 86
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24be374c55c3f2247b5df5f857d4a25d
+      internalID: -1153953263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ninja se\xF1al 86x86_21"
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 326
+        width: 86
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e67fe6a6783ebf04ba5e493d0fc64fd0
+      internalID: 834902670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ninja se\xF1al 86x86_22"
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 330
+        width: 86
+        height: 86
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 958c25dde439aaf479ed59142962fbb5
+      internalID: 26830698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ninja se\xF1al 86x86_23"
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 326
+        width: 86
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee86518f6b71ba54babd45ba7e55f763
+      internalID: 1878277480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ninja se\xF1al 86x86_24"
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 326
+        width: 86
+        height: 86
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db8133634d609cc4a87fb18667b7a965
+      internalID: 465875953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ninja se\xF1al 86x86_25"
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 326
+        width: 86
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4db745ed7fb4a47439fbc982436811d7
+      internalID: -1391995264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ninja se\xF1al 86x86_26"
+      rect:
+        serializedVersion: 2
+        x: 1218
+        y: 326
+        width: 86
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a73674021fefe64bbea6ddf54be9aa7
+      internalID: 1233563064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ninja se\xF1al 86x86_27"
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 240
+        width: 86
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73c87ed64ba865f40974c81bd13f4166
+      internalID: -1320355302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ninja se\xF1al 86x86_28"
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 244
+        width: 86
+        height: 86
+      alignment: 9
+      pivot: {x: 0.49999982, y: 0.452}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d91c75f55df17af4da1c377469d5a57d
+      internalID: -22586421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ninja se\xF1al 86x86_29"
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 240
+        width: 86
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4f52f3a5819db14599de97f54f6a1d5
+      internalID: 984489104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ninja se\xF1al 86x86_30"
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 240
+        width: 86
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a9b3b848362f14489e914eef031c481
+      internalID: -471017632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ninja se\xF1al 86x86_31"
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 240
+        width: 86
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40fe4f4d6f4060e47bcbed19bd87f259
+      internalID: 1395664594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ninja se\xF1al 86x86_32"
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 240
+        width: 86
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21a0ff82599dbf04cb2548fb7dd61fe3
+      internalID: -1966952108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ninja se\xF1al 86x86_33"
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 154
+        width: 86
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5, y: 0.55}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6459ceff62b3bd42aa627effaa85ed5
+      internalID: -607268876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ninja se\xF1al 86x86_35"
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 154
+        width: 86
+        height: 86
+      alignment: 9
+      pivot: {x: 0.72, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7746678fbcb0e6e42b6a5f36c06472ce
+      internalID: 602712390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ninja se\xF1al 86x86_36"
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 154
+        width: 86
+        height: 86
+      alignment: 9
+      pivot: {x: 0.38, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 065edf0df85856a4a8b4f791d648b95b
+      internalID: 544306552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ninja se\xF1al 86x86_38"
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 154
+        width: 86
+        height: 86
+      alignment: 9
+      pivot: {x: 0.4, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f234bd5f8638794cbcfe0e4bbca7914
+      internalID: 909743365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ninja se\xF1al 86x86_40"
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 154
+        width: 86
+        height: 86
+      alignment: 9
+      pivot: {x: 0.4, y: 0.55}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 645c2baa0cbb40049a0aeaa3517db028
+      internalID: 1449018950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      "ninja se\xF1al 86x86_10": 655583028
+      "ninja se\xF1al 86x86_5": -220489786
+      "ninja se\xF1al 86x86_20": -1153953263
+      "ninja se\xF1al 86x86_17": 534500373
+      "ninja se\xF1al 86x86_21": 834902670
+      "ninja se\xF1al 86x86_23": 1878277480
+      "ninja se\xF1al 86x86_6": 153567156
+      "ninja se\xF1al 86x86_12": -807462272
+      "ninja se\xF1al 86x86_33": -607268876
+      "ninja se\xF1al 86x86_22": 26830698
+      "ninja se\xF1al 86x86_4": 2056450263
+      "ninja se\xF1al 86x86_19": -1100750864
+      "ninja se\xF1al 86x86_11": 1752427612
+      "ninja se\xF1al 86x86_3": -1105733590
+      "ninja se\xF1al 86x86_8": 1003376588
+      "ninja se\xF1al 86x86_37": -929978764
+      "ninja se\xF1al 86x86_40": 1449018950
+      "ninja se\xF1al 86x86_24": 465875953
+      "ninja se\xF1al 86x86_1": 1338576542
+      "ninja se\xF1al 86x86_31": 1395664594
+      "ninja se\xF1al 86x86_29": 984489104
+      "ninja se\xF1al 86x86_39": 1472851625
+      "ninja se\xF1al 86x86_38": 909743365
+      "ninja se\xF1al 86x86_9": 1863072225
+      "ninja se\xF1al 86x86_28": -22586421
+      "ninja se\xF1al 86x86_14": -1737573689
+      "ninja se\xF1al 86x86_27": -1320355302
+      "ninja se\xF1al 86x86_15": -1945162659
+      "ninja se\xF1al 86x86_35": 602712390
+      "ninja se\xF1al 86x86_25": -1391995264
+      "ninja se\xF1al 86x86_30": -471017632
+      "ninja se\xF1al 86x86_41": 762293191
+      "ninja se\xF1al 86x86_16": 820081185
+      "ninja se\xF1al 86x86_2": -746773869
+      "ninja se\xF1al 86x86_34": 855707644
+      "ninja se\xF1al 86x86_36": 544306552
+      "ninja se\xF1al 86x86_32": -1966952108
+      "ninja se\xF1al 86x86_18": -649438779
+      "ninja se\xF1al 86x86_0": 918590599
+      "ninja se\xF1al 86x86_26": 1233563064
+      "ninja se\xF1al 86x86_13": -844465194
+      "ninja se\xF1al 86x86_7": 620849933
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
