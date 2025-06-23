@@ -178,6 +178,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6ef3fe568da838459bc13d2b9b4d9b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _movementController: {fileID: 2035196010099256759}
 --- !u!114 &5681528777754200541
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -206,6 +207,7 @@ MonoBehaviour:
   _sr: {fileID: 1787476697342920149}
   _jumpHeight: 0.8
   _jumpDuration: 0.8
+  _jumpSpeedMultiplier: 1.65
   _jumpCurve:
     serializedVersion: 2
     m_Curve:
@@ -239,6 +241,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+  _rb: {fileID: 8407647248398023724}
 --- !u!1 &5935325845497107884
 GameObject:
   m_ObjectHideFlags: 0
@@ -361,7 +364,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4f916b2c868d874795b65a3155fce3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _speed: 800
+  _speed: 3
 --- !u!1 &7361406851215576826
 GameObject:
   m_ObjectHideFlags: 0

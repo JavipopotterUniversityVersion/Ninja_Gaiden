@@ -2961,22 +2961,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 735775215}
   m_CullTransparentMesh: 1
---- !u!114 &736943768 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2035196010099256759, guid: 4a9689ec390be1a44bf8eca06cbbc22c, type: 3}
-  m_PrefabInstance: {fileID: 1434653563363961842}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b4f916b2c868d874795b65a3155fce3b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!50 &736943770 stripped
-Rigidbody2D:
-  m_CorrespondingSourceObject: {fileID: 8407647248398023724, guid: 4a9689ec390be1a44bf8eca06cbbc22c, type: 3}
-  m_PrefabInstance: {fileID: 1434653563363961842}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &745206067
 GameObject:
   m_ObjectHideFlags: 0
@@ -9601,78 +9585,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4338748836132361009, guid: 4a9689ec390be1a44bf8eca06cbbc22c, type: 3}
-      propertyPath: _rb
-      value: 
-      objectReference: {fileID: 736943770}
-    - target: {fileID: 4338748836132361009, guid: 4a9689ec390be1a44bf8eca06cbbc22c, type: 3}
-      propertyPath: _jumpHeight
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 4338748836132361009, guid: 4a9689ec390be1a44bf8eca06cbbc22c, type: 3}
-      propertyPath: _jumpDuration
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 4338748836132361009, guid: 4a9689ec390be1a44bf8eca06cbbc22c, type: 3}
-      propertyPath: _jumpCurve.m_Curve.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 4338748836132361009, guid: 4a9689ec390be1a44bf8eca06cbbc22c, type: 3}
-      propertyPath: _jumpCurve.m_Curve.Array.data[1].time
-      value: 0.501122
-      objectReference: {fileID: 0}
-    - target: {fileID: 4338748836132361009, guid: 4a9689ec390be1a44bf8eca06cbbc22c, type: 3}
-      propertyPath: _jumpCurve.m_Curve.Array.data[2].time
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4338748836132361009, guid: 4a9689ec390be1a44bf8eca06cbbc22c, type: 3}
-      propertyPath: _jumpCurve.m_Curve.Array.data[1].value
-      value: 0.993434
-      objectReference: {fileID: 0}
-    - target: {fileID: 4338748836132361009, guid: 4a9689ec390be1a44bf8eca06cbbc22c, type: 3}
-      propertyPath: _jumpCurve.m_Curve.Array.data[0].inSlope
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4338748836132361009, guid: 4a9689ec390be1a44bf8eca06cbbc22c, type: 3}
-      propertyPath: _jumpCurve.m_Curve.Array.data[1].inSlope
-      value: 0.03134539
-      objectReference: {fileID: 0}
-    - target: {fileID: 4338748836132361009, guid: 4a9689ec390be1a44bf8eca06cbbc22c, type: 3}
-      propertyPath: _jumpCurve.m_Curve.Array.data[2].inSlope
-      value: -1.6849743
-      objectReference: {fileID: 0}
-    - target: {fileID: 4338748836132361009, guid: 4a9689ec390be1a44bf8eca06cbbc22c, type: 3}
-      propertyPath: _jumpCurve.m_Curve.Array.data[0].outSlope
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4338748836132361009, guid: 4a9689ec390be1a44bf8eca06cbbc22c, type: 3}
-      propertyPath: _jumpCurve.m_Curve.Array.data[1].inWeight
-      value: 0.33333334
-      objectReference: {fileID: 0}
-    - target: {fileID: 4338748836132361009, guid: 4a9689ec390be1a44bf8eca06cbbc22c, type: 3}
-      propertyPath: _jumpCurve.m_Curve.Array.data[1].outSlope
-      value: 0.03134539
-      objectReference: {fileID: 0}
-    - target: {fileID: 4338748836132361009, guid: 4a9689ec390be1a44bf8eca06cbbc22c, type: 3}
-      propertyPath: _jumpCurve.m_Curve.Array.data[2].inWeight
-      value: 0.13257958
-      objectReference: {fileID: 0}
-    - target: {fileID: 4338748836132361009, guid: 4a9689ec390be1a44bf8eca06cbbc22c, type: 3}
-      propertyPath: _jumpCurve.m_Curve.Array.data[2].outSlope
-      value: -1.6849743
-      objectReference: {fileID: 0}
-    - target: {fileID: 4338748836132361009, guid: 4a9689ec390be1a44bf8eca06cbbc22c, type: 3}
-      propertyPath: _jumpCurve.m_Curve.Array.data[1].outWeight
-      value: 0.1806592
-      objectReference: {fileID: 0}
     - target: {fileID: 5935325845497107884, guid: 4a9689ec390be1a44bf8eca06cbbc22c, type: 3}
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    - target: {fileID: 7368320811306808274, guid: 4a9689ec390be1a44bf8eca06cbbc22c, type: 3}
-      propertyPath: _movementController
-      value: 
-      objectReference: {fileID: 736943768}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
