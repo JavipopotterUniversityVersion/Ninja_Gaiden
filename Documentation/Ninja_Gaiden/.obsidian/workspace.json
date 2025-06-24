@@ -1,0 +1,174 @@
+{
+  "main": {
+    "id": "386b129c801e2c77",
+    "type": "split",
+    "children": [
+      {
+        "id": "5d02fa57757b703d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "95a5e5a307a3ee24",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "NG_GDD.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "NG_GDD"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "00243a81f90e7909",
+    "type": "split",
+    "children": [
+      {
+        "id": "9875c89a97738f55",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c053c21c1b8a5826",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "482817d704f6fa0c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "9edbe88436328fb9",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "6e91b3b7ccd1cf8e",
+    "type": "split",
+    "children": [
+      {
+        "id": "e1cdd25cd9d8ebf0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "30ae5b1ebd88b6d4",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "NG_GDD.pdf",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for NG_GDD"
+            }
+          },
+          {
+            "id": "767ed21ac150b2db",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "NG_GDD.pdf",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from NG_GDD"
+            }
+          },
+          {
+            "id": "04f9834382e46bbb",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "bf3d6b02601e1171",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "NG_GDD.pdf",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of NG_GDD"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "95a5e5a307a3ee24",
+  "lastOpenFiles": [
+    "Welcome.md",
+    "NG_GDD.pdf"
+  ]
+}
