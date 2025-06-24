@@ -208,7 +208,7 @@ MonoBehaviour:
   _sr: {fileID: 1787476697342920149}
   _jumpHeight: 0.8
   _jumpDuration: 0.8
-  _jumpSpeedMultiplier: 1.65
+  _jumpSpeedMultiplier: 1.25
   _jumpCurve:
     serializedVersion: 2
     m_Curve:
@@ -365,7 +365,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4f916b2c868d874795b65a3155fce3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _speed: 3
+  _speed: 4
 --- !u!1 &7361406851215576826
 GameObject:
   m_ObjectHideFlags: 0

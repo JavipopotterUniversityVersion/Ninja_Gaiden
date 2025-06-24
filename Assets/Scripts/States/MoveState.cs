@@ -18,7 +18,6 @@ public class MoveState : IState
         {
             _movementController.Move(direction);
             _spriteRenderer.flipX = direction.x < 0;
-            print(direction.x);
         }
         else _brain.ChangeState("IdleState");
 
