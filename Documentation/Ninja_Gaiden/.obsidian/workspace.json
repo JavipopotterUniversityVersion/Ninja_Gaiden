@@ -65,12 +65,14 @@
             "id": "bf95734a9a607de7",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "NG_GDD.pdf"
+                "file": "Índice.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "NG_GDD"
+              "icon": "lucide-file",
+              "title": "Índice"
             }
           }
         ],
@@ -147,7 +149,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NG_GDD.pdf",
+                "file": "Índice.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +159,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for NG_GDD"
+              "title": "Backlinks for Índice"
             }
           },
           {
@@ -166,12 +168,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NG_GDD.pdf",
+                "file": "Índice.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from NG_GDD"
+              "title": "Outgoing links from Índice"
             }
           },
           {
@@ -195,13 +197,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NG_GDD.pdf",
+                "file": "Índice.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of NG_GDD"
+              "title": "Outline of Índice"
             }
           }
         ]
@@ -221,10 +223,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bf95734a9a607de7",
+  "active": "c053c21c1b8a5826",
   "lastOpenFiles": [
-    "Wiki/Dinámica.md",
+    "Images",
     "NG_GDD.pdf",
+    "Wiki/Dinámica.md",
     "Índice.md",
     "Wiki/Mecánica.md",
     "Wiki/Estética.md",
