@@ -31,4 +31,20 @@ public class StateMachine : MonoBehaviour
     }
 
     public Animator GetAnimator() => _animator;
+    public void PlayAnimation(string animationName) => _animator.Play(animationName);
+}
+
+public static class StateNames
+{
+    public const string PLAYER_IDLE = "PLAYER_IDLE";
+    public const string PLAYER_WALK = "PLAYER_WALK";
+    public const string PLAYER_RUN = "PLAYER_RUN";
+    public static string PLAYER_JUMP
+    {
+        get
+        {
+            int index = Random.Range(0, 1);
+            return $"PLAYER_JUMP_{index}";
+        }
+    }
 }

@@ -12,6 +12,7 @@ public class JumpState : IState
 
     public override void Enter()
     {
+        _brain.PlayAnimation(StateNames.PLAYER_JUMP);
         StartCoroutine(JumpCoroutine());
         _rb.linearVelocity = new Vector2(_rb.linearVelocityX * _jumpSpeedMultiplier, _rb.linearVelocityY);
     }

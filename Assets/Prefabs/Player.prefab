@@ -192,6 +192,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _movementController: {fileID: 2035196010099256759}
+  _spriteRenderer: {fileID: 1787476697342920149}
 --- !u!114 &4338748836132361009
 MonoBehaviour:
   m_ObjectHideFlags: 0

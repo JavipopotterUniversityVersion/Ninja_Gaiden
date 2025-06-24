@@ -6,6 +6,8 @@ public class IdleState : IState
     public override void Enter()
     {
         _movementController.Stop();
+        _brain.PlayAnimation(StateNames.PLAYER_IDLE);
+
     }
 
     public override void StateUpdate()
