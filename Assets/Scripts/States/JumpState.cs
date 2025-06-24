@@ -19,8 +19,6 @@ public class JumpState : IState
 
     IEnumerator JumpCoroutine()
     {
-        _brain.GetAnimator().Play("Salto1");
-        
         for (float t = 0; t < _jumpDuration; t += Time.deltaTime)
         {
             float normalizedTime = t / _jumpDuration;

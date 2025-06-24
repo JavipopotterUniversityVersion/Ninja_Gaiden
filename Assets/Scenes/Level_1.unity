@@ -1712,8 +1712,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 299.70004, y: -192.5}
-  m_SizeDelta: {x: 82.903, y: 65.902}
+  m_AnchoredPosition: {x: 309.06625, y: -156.90594}
+  m_SizeDelta: {x: 92.2412, y: 51.7133}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &466121131
 MonoBehaviour:
@@ -4122,8 +4122,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 340.90002, y: -126.03}
-  m_SizeDelta: {x: 82.903, y: 65.902}
+  m_AnchoredPosition: {x: 354.90704, y: -104.74694}
+  m_SizeDelta: {x: 92.2412, y: 51.7133}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &874030144
 MonoBehaviour:
@@ -5916,8 +5916,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 258, y: -126.03}
-  m_SizeDelta: {x: 82.903, y: 65.902}
+  m_AnchoredPosition: {x: 262.66913, y: -104.74694}
+  m_SizeDelta: {x: 92.2412, y: 51.7133}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1172479151
 MonoBehaviour:
@@ -7517,7 +7517,7 @@ GameObject:
   - component: {fileID: 1533240429}
   - component: {fileID: 1533240428}
   m_Layer: 5
-  m_Name: ButtonCORRER
+  m_Name: ButtonRUN
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7825,8 +7825,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 299.70004, y: -60.128014}
-  m_SizeDelta: {x: 82.903, y: 65.902}
+  m_AnchoredPosition: {x: 309.0663, y: -53.0337}
+  m_SizeDelta: {x: 92.2412, y: 51.7133}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1796126099
 MonoBehaviour:
@@ -9293,7 +9293,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8170153791668043269, guid: 0d230cc8be529a542a08cb878ab14b18, type: 3}
       propertyPath: m_Name
-      value: Floating Joystick
+      value: JoyStick
       objectReference: {fileID: 0}
     - target: {fileID: 8170153791961219456, guid: 0d230cc8be529a542a08cb878ab14b18, type: 3}
       propertyPath: m_SizeDelta.x
@@ -9364,6 +9364,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d230cc8be529a542a08cb878ab14b18, type: 3}
+--- !u!114 &2101639670 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8170153791668043265, guid: 0d230cc8be529a542a08cb878ab14b18, type: 3}
+  m_PrefabInstance: {fileID: 2101639669}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a47f546fc70ec8428172694e78e4288, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2127219744
 GameObject:
   m_ObjectHideFlags: 0
@@ -9567,10 +9578,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5681528777754200541, guid: 4a9689ec390be1a44bf8eca06cbbc22c, type: 3}
+      propertyPath: joystick
+      value: 
+      objectReference: {fileID: 2101639670}
     - target: {fileID: 5935325845497107884, guid: 4a9689ec390be1a44bf8eca06cbbc22c, type: 3}
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 7368320811306808274, guid: 4a9689ec390be1a44bf8eca06cbbc22c, type: 3}
+      propertyPath: joystick
+      value: 
+      objectReference: {fileID: 2101639670}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

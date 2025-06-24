@@ -4,13 +4,14 @@ public class MoveState : IState
 {
     [SerializeField] MovementController _movementController;
     [SerializeField] SpriteRenderer _spriteRenderer;
+    [SerializeField] Joystick joystick;
 
     public override void Enter() => _brain.PlayAnimation(StateNames.PLAYER_WALK);
 
     public override void StateUpdate()
     {
-        float horizontal = Input.GetAxisRaw("Horizontal");
-        float vertical = Input.GetAxisRaw("Vertical");
+        float horizontal = Input.GetAxisRaw("Horizontal") + joystick.Horizontal;
+        float vertical = Input.GetAxisRaw("Vertical") + joystick.Vertical;
 
         Vector2 direction = new Vector2(horizontal, vertical);
 
