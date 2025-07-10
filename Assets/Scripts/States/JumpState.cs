@@ -12,7 +12,7 @@ public class JumpState : IState
 
     public override void Enter()
     {
-        _brain.PlayAnimation(StateNames.PLAYER_JUMP);
+        _brain.PlayAnimation("PLAYER_JUMP_0");
         StartCoroutine(JumpCoroutine());
         _rb.linearVelocity = new Vector2(_rb.linearVelocityX * _jumpSpeedMultiplier, _rb.linearVelocityY);
     }
@@ -29,6 +29,6 @@ public class JumpState : IState
 
         _sr.transform.localPosition = new Vector3(_sr.transform.localPosition.x, 0, _sr.transform.localPosition.z);
 
-        _brain.ChangeState("IdleState");
+        _brain.ChangeState(StateNames.PLAYER_IDLE);
     }
 }

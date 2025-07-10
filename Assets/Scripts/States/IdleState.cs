@@ -12,13 +12,24 @@ public class IdleState : IState
 
     }
 
+    public override void ReceiveInput(string inputName)
+    {
+        switch (inputName)
+        {
+            case "JUMP":
+                _brain.ChangeState(StateNames.PLAYER_JUMP);
+                break;
+            case "ATTACK":
+                _brain.ChangeState(StateNames.PLAYER_ATTACK);
+                break;
+        }
+    }
+
     public override void StateUpdate()
     {
-        if (Input.GetKeyDown(KeyCode.Space)) _brain.ChangeState("JumpState");
-
         float horizontal = Input.GetAxisRaw("Horizontal") + joystick.Horizontal;
         float vertical = Input.GetAxisRaw("Vertical") + joystick.Vertical;
 
-        if (horizontal != 0 || vertical != 0) _brain.ChangeState("MoveState");
+        if (horizontal != 0 || vertical != 0) _brain.ChangeState(StateNames.PLAYER_WALK);
     }
 }

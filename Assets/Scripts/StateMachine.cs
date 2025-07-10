@@ -10,11 +10,19 @@ public class StateMachine : MonoBehaviour
     private void Awake()
     {
         _currentState = _states[_states.Keys.First()];
+        InputBuffer.Instance.OnInputActivated.AddListener(ReceiveInput);
         foreach (var state in _states.Values)
         {
             state.SetBrain(this);
             state.Init();
         }
+    }
+
+    public void ReceiveMessage(string message) => ReceiveInput(message);
+    private void ReceiveInput(string inputName)
+    {
+        if (_currentState != null) _currentState.ReceiveInput(inputName);
+        else Debug.LogWarning("Current state is null. Please set a valid state.");
     }
 
     private void Update()
@@ -38,13 +46,8 @@ public static class StateNames
 {
     public const string PLAYER_IDLE = "PLAYER_IDLE";
     public const string PLAYER_WALK = "PLAYER_WALK";
+    public const string PLAYER_JUMP = "PLAYER_JUMP";
     public const string PLAYER_RUN = "PLAYER_RUN";
-    public static string PLAYER_JUMP
-    {
-        get
-        {
-            int index = Random.Range(0, 1);
-            return $"PLAYER_JUMP_{index}";
-        }
-    }
+    public const string PLAYER_ATTACK = "PLAYER_ATTACK";
+    public const string PLAYER_GET_DAMAGE = "PLAYER_GET_DAMAGE";
 }

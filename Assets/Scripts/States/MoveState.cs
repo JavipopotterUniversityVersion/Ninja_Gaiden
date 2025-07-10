@@ -8,6 +8,19 @@ public class MoveState : IState
 
     public override void Enter() => _brain.PlayAnimation(StateNames.PLAYER_WALK);
 
+    public override void ReceiveInput(string inputName)
+    {
+        switch (inputName)
+        {
+            case "JUMP":
+                _brain.ChangeState(StateNames.PLAYER_JUMP);
+                break;
+            case "ATTACK":
+                _brain.ChangeState(StateNames.PLAYER_ATTACK);
+                break;
+        }
+    }
+
     public override void StateUpdate()
     {
         float horizontal = Input.GetAxisRaw("Horizontal") + joystick.Horizontal;
@@ -20,8 +33,6 @@ public class MoveState : IState
             _movementController.Move(direction);
             _spriteRenderer.flipX = direction.x < 0;
         }
-        else _brain.ChangeState("IdleState");
-
-        if (Input.GetKeyDown(KeyCode.Space)) _brain.ChangeState("JumpState");
+        else _brain.ChangeState(StateNames.PLAYER_IDLE);
     }
 }
