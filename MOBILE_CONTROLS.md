@@ -192,10 +192,100 @@ float vertical = Input.GetAxisRaw("Vertical") + joystick.Vertical;
 - Para nuevas escenas, considera usar el sistema StateMachine + InputBuffer
 - Los sprites de botones están en `Assets/sprites/UIButtons/XBOX BUTTONS - Premium Assets/`
 
+## Herramientas de Unity Editor / Unity Editor Tools
+
+### 1. Mejorar Controles Existentes
+**Menú: Tools → Mobile Controls → Improve Mobile UI in Current Scene**
+
+Esta herramienta automáticamente:
+- Aumenta el tamaño de botones móviles a mínimo 100x100px
+- Incrementa la opacidad a 0.85 para mejor visibilidad
+- Optimiza el joystick a 180x180px
+- Configura transiciones de color para feedback visual
+
+**Uso:**
+1. Abre la escena Nivel1.unity
+2. Ve a Tools → Mobile Controls → Improve Mobile UI in Current Scene
+3. Los controles se optimizarán automáticamente
+4. Guarda la escena (Ctrl+S)
+
+### 2. Agregar MobileControlsSetup
+**Menú: Tools → Mobile Controls → Add Mobile Controls Setup to Canvas**
+
+Agrega el componente MobileControlsSetup al Canvas:
+- Detecta automáticamente la plataforma
+- Oculta controles en desktop
+- Asigna el joystick automáticamente
+
+### 3. Crear Nueva UI Móvil
+**Menú: Tools → Mobile Controls → Create Mobile UI Setup**
+
+Ventana interactiva que crea un setup completo de controles móviles:
+
+**Opciones:**
+- **System Type**: Nuevo StateMachine o viejo Player.cs
+- **Controls**: Selecciona qué controles incluir
+- **Layout**: Configura posiciones y tamaños
+
+**Componentes creados:**
+- Canvas con escalado responsivo
+- Joystick flotante (si existe el prefab)
+- Botones de acción con:
+  - EnhancedMobileButton (animaciones)
+  - EnhancedTouchScreenButtonInput (feedback háptico)
+  - Tamaño optimizado para móvil
+  - Labels de texto
+
+## Componentes Mejorados / Enhanced Components
+
+### EnhancedMobileButton
+Mejora cualquier botón UI con:
+- **Animación de escala** al presionar
+- **Feedback háptico** en dispositivos móviles
+- **Auto-optimización** de tamaño y opacidad
+- **Configuración** personalizable
+
+**Uso:** Agregar como componente a cualquier Button
+
+### EnhancedTouchScreenButtonInput
+Versión mejorada de TouchScreenButtonInput:
+- Funciona con InputBuffer system
+- Feedback visual (color + escala)
+- Vibración en móviles
+- Validación en editor
+
+**Configuración:**
+- inputName: "JUMP", "ATTACK", etc.
+- Asignar buttonImage en Inspector
+- Configurar colores y efectos
+
+## Flujo de Trabajo Recomendado / Recommended Workflow
+
+### Para Mejorar Escena Existente (Nivel1):
+1. Abrir Nivel1.unity
+2. Tools → Mobile Controls → Improve Mobile UI in Current Scene
+3. Tools → Mobile Controls → Add Mobile Controls Setup to Canvas
+4. Opcional: Agregar EnhancedMobileButton a botones individuales
+5. Guardar escena
+6. Build y test en dispositivo móvil
+
+### Para Crear Nueva Escena con Controles Móviles:
+1. Crear nueva escena
+2. Tools → Mobile Controls → Create Mobile UI Setup
+3. Seleccionar opciones deseadas
+4. Click "Create Mobile UI"
+5. Configurar eventos de botones:
+   - Para StateMachine: Ya conectados a InputBuffer
+   - Para Player.cs: Conectar manualmente a Player.SaltoTactil/AtaqueTactil
+6. Agregar Player a la escena
+7. Test y ajustar posiciones según necesidad
+
 ## Próximos Pasos Sugeridos
 
-1. Aumentar tamaño de botones en Nivel1 para mejor UX móvil
-2. Ajustar alpha de botones a 0.8-0.9 para mejor visibilidad
-3. Agregar feedback visual en botones (scaling, color)
-4. Considerar vibración háptica en dispositivos móviles
+1. ✅ Aumentar tamaño de botones en Nivel1 para mejor UX móvil - **IMPLEMENTADO**
+2. ✅ Ajustar alpha de botones a 0.8-0.9 para mejor visibilidad - **IMPLEMENTADO**
+3. ✅ Agregar feedback visual en botones (scaling, color) - **IMPLEMENTADO**
+4. ✅ Considerar vibración háptica en dispositivos móviles - **IMPLEMENTADO**
 5. Testear en diferentes tamaños de pantalla móvil
+6. Considerar agregar botón de pausa
+7. Agregar indicadores visuales de estado (cooldowns, etc.)
