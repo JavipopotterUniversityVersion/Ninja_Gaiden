@@ -152,10 +152,12 @@ public class CreateMobileUISetup : EditorWindow
         Debug.Log("✓ Mobile UI created successfully! Configure button events in Inspector.");
     }
 
+    private const string JOYSTICK_PREFAB_NAME = "Floating Joystick";
+
     private void CreateJoystick(Transform parent, MobileControlsSetup setup)
     {
         // Try to instantiate from existing prefab
-        string[] guids = AssetDatabase.FindAssets("Floating Joystick t:Prefab");
+        string[] guids = AssetDatabase.FindAssets($"{JOYSTICK_PREFAB_NAME} t:Prefab");
         
         if (guids.Length > 0)
         {
@@ -185,12 +187,12 @@ public class CreateMobileUISetup : EditorWindow
                     serializedSetup.ApplyModifiedProperties();
                 }
                 
-                Debug.Log("✓ Added Floating Joystick from prefab");
+                Debug.Log($"✓ Added {JOYSTICK_PREFAB_NAME} from prefab");
                 return;
             }
         }
         
-        Debug.LogWarning("Floating Joystick prefab not found. Please add manually from Assets/Joystick Pack/Prefabs/");
+        Debug.LogWarning($"{JOYSTICK_PREFAB_NAME} prefab not found. Please add manually from Assets/Joystick Pack/Prefabs/");
     }
 
     private void CreateActionButton(Transform parent, string name, string inputName, Vector2 position)

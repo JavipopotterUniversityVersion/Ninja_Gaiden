@@ -65,7 +65,8 @@ public class EnhancedMobileButton : MonoBehaviour, IPointerDownHandler, IPointer
 
     private void Update()
     {
-        if (enablePressAnimation && enablePressScale)
+        // Only animate if needed (when there's a difference between current and target scale)
+        if (enablePressAnimation && enablePressScale && Vector3.Distance(transform.localScale, targetScale) > 0.001f)
         {
             // Smoothly animate to target scale
             transform.localScale = Vector3.Lerp(

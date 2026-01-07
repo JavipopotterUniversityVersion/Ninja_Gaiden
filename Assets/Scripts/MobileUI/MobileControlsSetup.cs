@@ -43,8 +43,13 @@ public class MobileControlsSetup : MonoBehaviour
         
         if (!shouldShow && !forceShowControls)
         {
-            // Hide all mobile controls on desktop
-            gameObject.SetActive(false);
+            // Hide mobile controls by disabling children instead of the whole gameObject
+            // This allows the script to continue running if needed
+            foreach (Transform child in transform)
+            {
+                child.gameObject.SetActive(false);
+            }
+            Debug.Log("Mobile controls hidden on desktop");
             return;
         }
         

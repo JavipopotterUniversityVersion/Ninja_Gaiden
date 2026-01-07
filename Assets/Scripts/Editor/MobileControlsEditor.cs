@@ -48,12 +48,24 @@ public class MobileControlsEditor : Editor
         }
     }
     
+    // Mobile control button name patterns
+    private static readonly string[] MOBILE_CONTROL_BUTTON_NAMES = new string[]
+    {
+        "ButtonA", "ButtonY", "ButtonB", "ButtonX", "ButtonCORRER",
+        "Jump", "Attack", "JumpButton", "AttackButton"
+    };
+
     private static bool IsMobileControlButton(string name)
     {
         // Identify mobile control buttons (not debug/cheat buttons)
-        return name == "ButtonA" || name == "ButtonY" || name == "ButtonB" || 
-               name == "ButtonX" || name == "ButtonCORRER" || name.Contains("Jump") || 
-               name.Contains("Attack");
+        foreach (string buttonName in MOBILE_CONTROL_BUTTON_NAMES)
+        {
+            if (name.Contains(buttonName))
+            {
+                return true;
+            }
+        }
+        return false;
     }
     
     private static void ImproveButton(Button button)

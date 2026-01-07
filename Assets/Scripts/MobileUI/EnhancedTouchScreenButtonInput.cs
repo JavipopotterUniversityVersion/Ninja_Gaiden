@@ -112,21 +112,28 @@ public class EnhancedTouchScreenButtonInput : MonoBehaviour, IPointerDownHandler
 
     private void SendInput()
     {
-        if (InputBuffer.Instance != null && !string.IsNullOrEmpty(inputName))
+        try
         {
-            InputBuffer.Instance.ActivateInput(inputName);
-            Debug.Log($"Mobile button sent input: {inputName}");
+            if (InputBuffer.Instance != null && !string.IsNullOrEmpty(inputName))
+            {
+                InputBuffer.Instance.ActivateInput(inputName);
+                Debug.Log($"Mobile button sent input: {inputName}");
+            }
+            else
+            {
+                if (InputBuffer.Instance == null)
+                {
+                    Debug.LogWarning("InputBuffer instance not found! Make sure InputBuffer exists in the scene.");
+                }
+                if (string.IsNullOrEmpty(inputName))
+                {
+                    Debug.LogWarning($"Input name not set on button {gameObject.name}");
+                }
+            }
         }
-        else
+        catch (System.Exception e)
         {
-            if (InputBuffer.Instance == null)
-            {
-                Debug.LogWarning("InputBuffer instance not found! Make sure InputBuffer exists in the scene.");
-            }
-            if (string.IsNullOrEmpty(inputName))
-            {
-                Debug.LogWarning($"Input name not set on button {gameObject.name}");
-            }
+            Debug.LogError($"Error sending input from mobile button: {e.Message}");
         }
     }
 
