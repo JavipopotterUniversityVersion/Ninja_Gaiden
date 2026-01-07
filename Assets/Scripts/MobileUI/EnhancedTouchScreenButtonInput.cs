@@ -117,7 +117,9 @@ public class EnhancedTouchScreenButtonInput : MonoBehaviour, IPointerDownHandler
             if (InputBuffer.Instance != null && !string.IsNullOrEmpty(inputName))
             {
                 InputBuffer.Instance.ActivateInput(inputName);
+                #if UNITY_EDITOR
                 Debug.Log($"Mobile button sent input: {inputName}");
+                #endif
             }
             else
             {
