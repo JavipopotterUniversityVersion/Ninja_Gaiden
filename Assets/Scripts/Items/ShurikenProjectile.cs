@@ -11,7 +11,6 @@ public class ShurikenProjectile : MonoBehaviour
     
     private Vector2 direction;
     private Rigidbody2D rb;
-    private bool directionSet = false;
     
     private void Awake()
     {
@@ -28,7 +27,6 @@ public class ShurikenProjectile : MonoBehaviour
     public void SetDirection(Vector2 dir)
     {
         direction = dir.normalized;
-        directionSet = true;
         
         // Set velocity once
         if (rb != null)
