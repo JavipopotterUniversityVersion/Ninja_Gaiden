@@ -50,4 +50,5 @@ public static class StateNames
     public const string PLAYER_RUN = "PLAYER_RUN";
     public const string PLAYER_ATTACK = "PLAYER_ATTACK";
     public const string PLAYER_GET_DAMAGE = "PLAYER_GET_DAMAGE";
+    public const string PLAYER_USE_ITEM = "PLAYER_USE_ITEM";
 }

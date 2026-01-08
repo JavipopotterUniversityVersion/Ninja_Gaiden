@@ -22,6 +22,9 @@ public class IdleState : IState
             case "ATTACK":
                 _brain.ChangeState(StateNames.PLAYER_ATTACK);
                 break;
+            case "USE_ITEM":
+                _brain.ChangeState(StateNames.PLAYER_USE_ITEM);
+                break;
         }
     }
 
