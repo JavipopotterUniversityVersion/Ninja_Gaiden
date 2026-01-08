@@ -165,7 +165,7 @@ public class BodyPossessionItem : MonoBehaviour, IItem
         float vertical = Input.GetAxisRaw("Vertical");
         
         // Add joystick support if available
-        Joystick joystick = FindFirstObjectByType<Joystick>();
+        Joystick joystick = FindObjectOfType<Joystick>();
         if (joystick != null)
         {
             horizontal += joystick.Horizontal;
