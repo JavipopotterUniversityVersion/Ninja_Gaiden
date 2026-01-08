@@ -8,6 +8,7 @@ public class ShurikenItem : MonoBehaviour, IItem
     [SerializeField] private GameObject shurikenPrefab;
     [SerializeField] private float cooldown = 0.5f;
     private float lastUseTime = -999f;
+    private static Sprite cachedCircleSprite;
     
     public string GetItemName()
     {
@@ -71,7 +72,7 @@ public class ShurikenItem : MonoBehaviour, IItem
             
             // Add visual (simple circle for now)
             SpriteRenderer sr = shuriken.AddComponent<SpriteRenderer>();
-            sr.sprite = CreateCircleSprite();
+            sr.sprite = GetCachedCircleSprite();
             sr.color = Color.gray;
             
             // Add collider
@@ -84,6 +85,16 @@ public class ShurikenItem : MonoBehaviour, IItem
             
             return shuriken;
         }
+    }
+    
+    private Sprite GetCachedCircleSprite()
+    {
+        // Use cached sprite to avoid creating multiple textures
+        if (cachedCircleSprite == null)
+        {
+            cachedCircleSprite = CreateCircleSprite();
+        }
+        return cachedCircleSprite;
     }
     
     private Sprite CreateCircleSprite()

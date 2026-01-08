@@ -11,6 +11,7 @@ public class ShurikenProjectile : MonoBehaviour
     
     private Vector2 direction;
     private Rigidbody2D rb;
+    private bool directionSet = false;
     
     private void Awake()
     {
@@ -27,18 +28,17 @@ public class ShurikenProjectile : MonoBehaviour
     public void SetDirection(Vector2 dir)
     {
         direction = dir.normalized;
+        directionSet = true;
         
-        // Rotate shuriken to face direction
-        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-        transform.rotation = Quaternion.Euler(0, 0, angle);
-    }
-    
-    private void FixedUpdate()
-    {
+        // Set velocity once
         if (rb != null)
         {
             rb.linearVelocity = direction * speed;
         }
+        
+        // Rotate shuriken to face direction
+        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+        transform.rotation = Quaternion.Euler(0, 0, angle);
     }
     
     private void OnTriggerEnter2D(Collider2D collision)

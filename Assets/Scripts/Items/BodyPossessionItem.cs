@@ -14,6 +14,8 @@ public class BodyPossessionItem : MonoBehaviour, IItem
     private StateMachine originalStateMachine;
     private StateMachine possessedStateMachine;
     private float possessionRange = 3f;
+    private Joystick cachedJoystick;
+    private HealthHandler possessedEnemyHealth;
     
     public string GetItemName()
     {
@@ -81,9 +83,18 @@ public class BodyPossessionItem : MonoBehaviour, IItem
             originalStateMachine.enabled = false;
         }
         
-        // Make player body inactive but not destroyed
-        player.GetComponent<Rigidbody2D>().linearVelocity = Vector2.zero;
-        player.GetComponent<MovementController>().enabled = false;
+        // Make player body inactive but not destroyed (with null checks)
+        Rigidbody2D playerRb = player.GetComponent<Rigidbody2D>();
+        if (playerRb != null)
+        {
+            playerRb.linearVelocity = Vector2.zero;
+        }
+        
+        MovementController playerMovement = player.GetComponent<MovementController>();
+        if (playerMovement != null)
+        {
+            playerMovement.enabled = false;
+        }
         
         // Set up enemy for player control
         possessedStateMachine = enemy.GetComponent<StateMachine>();
@@ -98,17 +109,16 @@ public class BodyPossessionItem : MonoBehaviour, IItem
         }
         
         // Subscribe to enemy death
-        HealthHandler enemyHealth = enemy.GetComponent<HealthHandler>();
-        if (enemyHealth != null)
+        possessedEnemyHealth = enemy.GetComponent<HealthHandler>();
+        if (possessedEnemyHealth != null)
         {
-            enemyHealth.onDeath.AddListener(OnPossessedEnemyDeath);
+            possessedEnemyHealth.onDeath.AddListener(OnPossessedEnemyDeath);
         }
         
-        // Transfer control to enemy
-        ItemInventory inventory = enemy.GetComponent<ItemInventory>();
-        if (inventory == null)
+        // Cache joystick reference for performance
+        if (cachedJoystick == null)
         {
-            inventory = enemy.AddComponent<ItemInventory>();
+            cachedJoystick = FindObjectOfType<Joystick>();
         }
         
         // Wait for possession to complete
@@ -129,6 +139,12 @@ public class BodyPossessionItem : MonoBehaviour, IItem
     {
         Debug.Log("Returning to original body!");
         
+        // Remove event listener to prevent memory leaks
+        if (possessedEnemyHealth != null)
+        {
+            possessedEnemyHealth.onDeath.RemoveListener(OnPossessedEnemyDeath);
+        }
+        
         // Re-enable original player control
         if (originalStateMachine != null)
         {
@@ -144,6 +160,7 @@ public class BodyPossessionItem : MonoBehaviour, IItem
         // Clean up
         isPossessing = false;
         possessedEnemy = null;
+        possessedEnemyHealth = null;
     }
     
     private void Update()
@@ -164,12 +181,11 @@ public class BodyPossessionItem : MonoBehaviour, IItem
         float horizontal = Input.GetAxisRaw("Horizontal");
         float vertical = Input.GetAxisRaw("Vertical");
         
-        // Add joystick support if available
-        Joystick joystick = FindObjectOfType<Joystick>();
-        if (joystick != null)
+        // Add joystick support if available (using cached reference)
+        if (cachedJoystick != null)
         {
-            horizontal += joystick.Horizontal;
-            vertical += joystick.Vertical;
+            horizontal += cachedJoystick.Horizontal;
+            vertical += cachedJoystick.Vertical;
         }
         
         Vector2 direction = new Vector2(horizontal, vertical);
@@ -188,6 +204,15 @@ public class BodyPossessionItem : MonoBehaviour, IItem
         else
         {
             movement.Stop();
+        }
+    }
+    
+    private void OnDestroy()
+    {
+        // Clean up event listeners to prevent memory leaks
+        if (possessedEnemyHealth != null)
+        {
+            possessedEnemyHealth.onDeath.RemoveListener(OnPossessedEnemyDeath);
         }
     }
 }

@@ -21,12 +21,17 @@ public class ItemPickup : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             ItemInventory inventory = collision.GetComponent<ItemInventory>();
-            if (inventory != null && item != null)
+            if (inventory != null && item != null && itemBehaviour != null)
             {
-                inventory.SetItem(item);
+                // Add the item component to the player and transfer it properly
+                System.Type itemType = itemBehaviour.GetType();
+                MonoBehaviour newItemComponent = collision.gameObject.AddComponent(itemType) as MonoBehaviour;
                 
-                // Transfer the item component to the player
-                MonoBehaviour itemComponent = collision.gameObject.AddComponent(itemBehaviour.GetType()) as MonoBehaviour;
+                // Copy any serialized fields if needed
+                if (newItemComponent is IItem newItem)
+                {
+                    inventory.SetItem(newItem);
+                }
                 
                 // Destroy the pickup object
                 Destroy(gameObject);
