@@ -31,6 +31,7 @@ public class MoveState : IState
         if (direction != Vector2.zero)
         {
             _movementController.Move(direction);
+            _movementController.transform.localScale = new Vector3(direction.x < 0 ? -1 : 1, 1, 1);
             _spriteRenderer.flipX = direction.x < 0;
         }
         else _brain.ChangeState(StateNames.PLAYER_IDLE);

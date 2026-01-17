@@ -6,6 +6,8 @@ public class StateMachine : MonoBehaviour
     [SerializeField] Animator _animator;
     [SerializeField] SerializableDictionary<string, IState> _states;
     IState _currentState;
+    string _currentStateName;
+    public string CurrentStateName => _currentStateName;
 
     private void Awake()
     {
@@ -34,6 +36,7 @@ public class StateMachine : MonoBehaviour
     public void ChangeState(string stateName)
     {
         _currentState.Exit();
+        _currentStateName = stateName;
         _currentState = _states[stateName];
         _currentState.Enter();
     }
@@ -50,4 +53,5 @@ public static class StateNames
     public const string PLAYER_RUN = "PLAYER_RUN";
     public const string PLAYER_ATTACK = "PLAYER_ATTACK";
     public const string PLAYER_GET_DAMAGE = "PLAYER_GET_DAMAGE";
+    public const string PLAYER_DIE = "PLAYER_DIE";
 }
